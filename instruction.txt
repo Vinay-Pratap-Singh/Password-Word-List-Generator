@@ -1,0 +1,36 @@
+
+***** Welcome to the Password List Generator Tool *****
+***** Designed and Created by Vinay Pratap Singh *****
+
+This tool can generate a list of password according to your need (Wordlist)
+
+Syntax: exit
+Syntax: help
+Syntax: charset
+        length 
+        output_file_name
+
+* exit will terminate the complete program
+* you can type "help" in charset to see the instruction of program
+* help will open the instruction page for you to see the syntax, charset and usage details
+* charset will define the character set you want to use to generate word list
+* length will define the length of the password you want to generate
+* output_file will be the name of the file in which you want to store the worldlist generated 
+* output_file_name should be without any extension
+
+
+Charset:
+l = lower case (a to z)
+u = upper case (A to Z)
+n = number (0 to  9)
+p = punctuations (symbols: , . / ' ; \ [ ] etc)
+lu = lower and upper case (a to z and A to Z)
+ln = lower and number case (a to z and 0 to 9)
+un = upper and number case (A to Z and 0 to 9)
+lp = (a to z and symbols)
+up = (A to Z and symbols)
+np = (0 to 9 and symbols)
+lun = (a to z and A to Z and 0 to 9)
+lup = (a to z and A to Z and symbols)
+unp = (A to Z and 0 to 9 and symbols)
+lunp = (a to z and A to Z and 0 to 9 and symbols)
